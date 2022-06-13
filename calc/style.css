@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin: 0 3%;
+}
+.wrapper {
+    height: 100vh;
+    background-color: #f3f3;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+
+.flex-container {
+    display: flex;
+}
+
+.calc {
+    max-width: 300px;
+    box-shadow: 5px 10px #ecc5c5;
+    border-radius: 1 0px;
+    height: 300px;
+    background-color: rgb(228, 218, 218);
+    align-items: center;
+    justify-content: center;
+}
+
+.calc-content {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.screen {
+    height: 25%;
+    background: whitesmoke;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+
+}
+
+.values {
+    padding: 0.5rem;
+    font-size: 40px;
+}
+
+.controls {
+    height: 75%;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+
+.right-panel {
+    border-radius: 25px;
+    border-right: 1px solid red;
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.character {
+    width: 50px;
+    background-color: rgb(243, 177, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.character:hover{
+    background-color:  rgb(177, 116, 37);
+}
+
+
+.left-panel {
+    border-radius: 25px;
+    border-left: 1px solid red;
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+
+.oparators{
+    height: 50%;
+}
+
+
+.equal{
+    background-color: rgb(226, 181, 31);
+    color: white;
+}
+
+
+.buttons{
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
